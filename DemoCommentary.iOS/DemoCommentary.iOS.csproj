@@ -134,4 +134,8 @@
       <Name>DemoCommentary</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\happy.png" />
+    <BundleResource Include="Resources\sad.png" />
+  </ItemGroup>
 </Project>

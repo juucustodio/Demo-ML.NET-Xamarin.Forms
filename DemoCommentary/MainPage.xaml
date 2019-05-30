@@ -1,7 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DemoCommentary" x:Class="DemoCommentary.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:DemoCommentary" 
+             x:Class="DemoCommentary.MainPage">
+    <StackLayout Margin="20">
+        <Entry Placeholder="Texto" x:Name="Texto"/>
+        <Button Text="Resultado" Clicked="GetResult"/>
+        <Image x:Name="Emoji" WidthRequest="60" HorizontalOptions="Center"/>
+        <Label x:Name="LblResult" HorizontalOptions="Center"/>
     </StackLayout>
 </ContentPage>
